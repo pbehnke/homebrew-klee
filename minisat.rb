@@ -5,9 +5,8 @@ class Minisat < Formula
   patch :DATA
 
   def install
-  	mkdir 'build'
-  	cd 'build' do
-  		system "cmake", ".."
+  	mkdir 'build' do
+  		system "cmake", "..", *std_cmake_args
   		system "make", "install"
 	end    
   end
