@@ -2,7 +2,7 @@ class Stp < Formula
   homepage "http://stp.github.io/stp/"
   head "https://github.com/stp/stp.git"
 
-  depends_on "pbehkne/klee/minisat"
+  depends_on "pbehnke/klee/minisat"
   depends_on "boost"
   depends_on "cmake"
 
