@@ -1,4 +1,4 @@
-class Ministat < Formula
+class Minisat < Formula
   homepage "https://github.com/stp/"
   head "https://github.com/stp/minisat.git"
 
