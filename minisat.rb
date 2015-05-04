@@ -2,6 +2,8 @@ class Minisat < Formula
   homepage "https://github.com/stp/"
   head "https://github.com/stp/minisat.git"
 
+  depends_on 'cmake' 
+
   patch :DATA
 
   def install
