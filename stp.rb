@@ -6,7 +6,7 @@ class Stp < Formula
 
   def install
     system "./scripts/configure", "--with-cryptominisat2",
-                          "--wth-prefix=#{prefix}"
+                          "--with-prefix=#{prefix}"
     system "make", "install"
   end
 end
