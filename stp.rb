@@ -1,4 +1,4 @@
-class stp < Formula
+class Stp < Formula
   homepage "http://stp.github.io/stp/"
   url "http://www.doc.ic.ac.uk/~cristic/klee/stp-r940.tgz"
   version "940"

@@ -1,4 +1,4 @@
-class stp < Formula
+class Klee_uclibc < Formula
   homepage "https://github.com/klee/"
   head "https://github.com/klee/klee-uclibc.git"
 
